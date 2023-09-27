@@ -1,3 +1,48 @@
 * {
   width: 1024px;
 }
+
+.modalTexto {
+  padding-left: 4vw;
+  overflow: hidden;
+  height: 20vh;
+  padding-top: 6vh;
+}
+
+.imagemLogoP {
+  margin-left: 10vw;
+  overflow: hidden;
+}
+
+.textoNavP {
+  display: flex;
+  text-align: justify;
+  padding-left: 12vw;
+  overflow: hidden;
+}
+
+.legendaCarouselP {
+  padding-right: 30vw;
+  overflow: hidden;
+}
+
+.textoFooterP {
+  height: 10vh;
+  background-color: #e1a24c;
+  padding-top: 4vh;
+  text-align: center;
+  min-height: auto;
+  overflow: hidden;
+}
+
+.alturaPaginaP {
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .alturaPaginaP {
+    min-height: 100vh;
+    overflow: hidden;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+}
