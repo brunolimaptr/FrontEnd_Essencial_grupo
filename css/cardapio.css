@@ -1,30 +1,20 @@
 * {
-  width: 1024px;
   margin: 0;
   padding: 0;
-  border: 0;
+  /*border: 0;*/
   box-sizing: border-box;
+}
+h1 {
+  color: black;
 }
 
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-main {
-  flex-grow: 1;
-}
-
-header {
-  margin-top: 50px;
-}
-
-h1 {
-  font-size: 2em;
+  background-color: #fafafa;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  transition: background 0.2s linear;
 }
 
 img {
@@ -34,10 +24,14 @@ img {
   height: auto;
 }
 
+.navbar {
+  width: 100%;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
-  background-color: #eb790f;
+  background-color: #e1a24c;
   position: fixed;
   width: 100%;
   top: 0;
@@ -61,15 +55,53 @@ nav ul li a:hover {
   background-color: #f7d66b;
 }
 
-header {
-  text-align: center;
-  padding: 20px 0;
+body.dark {
+  background: #292c35;
+  color: white;
 }
 
-footer {
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding: 5px;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
+
+.center {
+  /* margin-left: 61vw; */
+  /* padding-bottom: 8vh; */
+  /* display: flex; */
   text-align: center;
-  padding: 10px;
-  margin-top: auto;
 }
 
 .prato {
@@ -79,9 +111,14 @@ footer {
 }
 
 .prato img {
-  width: 250px;
+  width: 300px;
   height: auto;
 }
+.detalhes {
+  color: #000000;
+  padding: 20px;
+}
+
 .data.detalhes {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
@@ -92,4 +129,34 @@ footer {
   right: 0;
   text-align: center;
   z-index: 2;
+}
+
+.tamanhoFooterP {
+  margin-top: 100px;
+  height: 10vh;
+  background-color: #e1a24c;
+  padding-top: 2vh;
+  text-align: center;
+  min-height: auto;
+  overflow: hidden;
+}
+
+.letra_rodape {
+  text-align: center;
+  justify-content: center;
+  /* margin-left: 38vw; */
+}
+
+.button-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: right;
+  right: 3cm;
+  margin-top: 3cm;
+}
+
+.checkbox {
+  display: none;
 }
