@@ -18,8 +18,13 @@
   overflow: hidden;
 }
 
+.modal {
+  margin-top: 40vh;
+  margin-left: -1.5vw;
+}
+
 .legendaCarouselP {
-  overflow: hidden;
+  color: #111;
 }
 
 .tamanhoFooterP {
@@ -32,10 +37,12 @@
 }
 
 .textoFooter {
-  font-size: 40px;
+  padding-right: 2vw;
 }
 
 .alturaPaginaP {
+  width: 38vw;
+  margin-left: 30vw;
 }
 
 body {
@@ -48,9 +55,10 @@ body {
 }
 
 .mode {
+  margin-top: 4vh;
   display: flex;
-  margin-left: 28vw;
-  padding-bottom: 60px;
+  margin-left: 29vw;
+  padding-bottom: 6vh;
 }
 
 body.dark {
@@ -66,8 +74,8 @@ body.dark {
   border-radius: 50px;
   cursor: pointer;
   display: flex;
-  margin-left: 950px;
-  margin-top: 20px;
+  margin-left: 37vw;
+  margin-top: 2vh;
 
   padding: 5px;
   height: 26px;
@@ -99,11 +107,40 @@ body.dark {
   color: #f39c12;
 }
 
-@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #e1a24c;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 18px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #f7d66b;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .alturaPaginaP {
-    min-height: 100vh;
     overflow: hidden;
   }
 }
-@media screen and (min-device-width: 768px) and (max-device-width: 1023px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+}
+
+@media screen and (min-device-width: 801px) and (max-device-width: 1200px) {
 }
