@@ -135,17 +135,54 @@ nav ul li a:hover {
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .alturaPaginaP {
-    overflow: hidden;
+  .mode {
+    margin-top: 4vh;
+    display: flex;
+    margin-left: 8vw;
+    padding-bottom: 6vh;
   }
+
   .imagemLogoP {
-    width: 100vw;
-    margin-left: 10vw;
+    overflow: hidden;
+    margin-right: -30vw;
+  }
+
+  .alturaPaginaP {
     overflow: hidden;
   }
 }
 @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+  .mode {
+    margin-top: 4vh;
+    display: flex;
+    margin-left: 8vw;
+    padding-bottom: 6vh;
+  }
+
+  .imagemLogoP {
+    overflow: hidden;
+    margin-right: -30vw;
+  }
+
+  .alturaPaginaP {
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-device-width: 801px) and (max-device-width: 1200px) {
+  .mode {
+    margin-top: 4vh;
+    display: flex;
+    margin-left: 16vw;
+    padding-bottom: 6vh;
+  }
+
+  .imagemLogoP {
+    overflow: hidden;
+    margin-right: -18vw;
+  }
+
+  .alturaPaginaP {
+    overflow: hidden;
+  }
 }
