@@ -138,6 +138,11 @@ nav ul li a:hover {
   .alturaPaginaP {
     overflow: hidden;
   }
+  .imagemLogoP {
+    width: 100vw;
+    margin-left: 10vw;
+    overflow: hidden;
+  }
 }
 @media screen and (min-device-width: 481px) and (max-device-width: 800px) {
 }
