@@ -25,14 +25,17 @@ body {
   width: 100%;
 }
 .mode {
-  margin-top: 10vh;
+  margin-top: 4vh;
   display: flex;
-  margin-left: 29vw;
+  margin-left: 36vw;
   padding-bottom: 6vh;
+  display: flex;
+  gap: 16vw;
 }
 
 .imagemLogoP {
-  margin-right: 20vw;
+  overflow: hidden;
+  /* margin-right: -30vw; */
 }
 
 body.dark {
@@ -79,6 +82,7 @@ body.dark {
 
 .fa-sun {
   color: #f39c12;
+  margin-left: 0.5vw;
 }
 
 nav ul {
