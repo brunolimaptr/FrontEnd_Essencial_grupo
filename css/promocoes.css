@@ -1,3 +1,288 @@
 * {
-  width: 1024px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 1em 0;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  padding: 15px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #e1a24c;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul li {
+  display: inline;
+  margin: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 9px 18px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #f7d66b;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.imgtit {
+  /* width: 15.712182061579652vw;
+  height: 20.96849315068493vh;
+  margin-left: 120.72px; */
+}
+
+/* Posiciona automaticamente sem fazer a rolagem do body, só no carrossel*/
+.gallery-wrapper {
+  overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  color: #fff;
+  transition: all 600ms ease-in-out;
+  background: linear-gradient(to left, transparent 0%, black 200%);
+  opacity: 0.5;
+  cursor: pointer;
+  border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+.arrow-right {
+  right: 0;
+  left: auto;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 15px;
+  overflow: hidden;
+}
+
+.item {
+  width: 50vw;
+  height: 70vh;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
+}
+
+.current-item {
+  opacity: 1;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.cyan {
+  background: cyan;
+}
+
+.deeppink {
+  background: deeppink;
+}
+
+.turquoise {
+  background: turquoise;
+}
+
+.darkblue {
+  background: darkblue;
+}
+
+.purple {
+  background: purple;
+}
+
+.tamanhoFooterP {
+  height: 10vh;
+  background-color: #e1a24c;
+  padding-top: 2vh;
+  text-align: center;
+  min-height: auto;
+  overflow: hidden;
+}
+
+.textoFooter {
+  padding-right: 2vw;
+}
+
+/* Divisória */
+/* .mode {
+  display: flex;
+  margin-left: 830px;
+  padding-bottom: 60px;
+}
+
+body.dark {
+  background: #292c35;
+  color: white;
+}
+
+.checkbox {
+  opacity: 0;
+}
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  margin-left: 950px;
+  margin-top: 40px;
+
+  padding: 5px;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
+
+.center {
+  margin-left: 800px;
+  padding-top: 50px;
+  display: flex;
+}
+
+.form-label {
+  margin-left: 500px;
+}
+
+.form-control {
+  margin-left: 500px;
+}
+
+.botao {
+  margin-left: 500px;
+  padding-top: 15px;
+} */
+.mode {
+  margin-top: 4vh;
+  display: flex;
+  margin-left: 29vw;
+  padding-bottom: 6vh;
+}
+
+body.dark {
+  background: #292c35;
+}
+
+.checkbox {
+  opacity: 0;
+}
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  margin-left: 37vw;
+  margin-top: 2vh;
+
+  padding: 5px;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+}
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .alturaPaginaP {
+    overflow: hidden;
+  }
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+}
+
+@media screen and (min-device-width: 801px) and (max-device-width: 1200px) {
 }
