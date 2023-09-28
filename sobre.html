@@ -4,20 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="./css/sobre.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css/sobre.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
+      defer
     ></script>
-    <title>Document</title>
+    <link rel="icon" href="./img/Logo.ico" type="image/x-icon" />
+    <title>Sobre</title>
   </head>
+
+  <div class="mode">
+    <img src="./img/Logo3.png" alt="imagemLogo"  class="imagemLogoP"/>
+        <input type="checkbox" class="checkbox" id="chk" />
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+    <div class="modal" id="myModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modalTexto" class="modal-body">
+            <p><h5>Seja Bem-vindo ao restaurante Aladdin's Food!</h5></p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
   <header>
     <nav>
       <ul>
@@ -32,41 +54,44 @@
   <body>
     <h1 class="Título">Sobre Alladin's Food</h1>
 
-    <div class="mode">
-      <input type="checkbox" class="checkbox" id="chk" />
-      <label class="label" for="chk">
-        <i class="fas fa-moon"></i>
-        <i class="fas fa-sun"></i>
-        <div class="ball"></div>
-      </label>
+    <div class="container my-grid">
+      <div class="row my-row">
+        <div class="col-xl-6">
+          <img
+          class="img-fluid smaller-image"
+          src="img/pessoas.png"
+          alt="Ilustração de mesa de restaurante"
+          />
+          <p><strong>Sobre os proprietários</strong></p>
+          O Restaurante Alladin's Food tem a honra de ser propriedade do Grupo
+          1, um time dedicado e apaixonado pela culinária árabe. Os membros
+          deste grupo são: <br> <br>
+          <li>Beatriz Barcelos Cardozo</li>
+          <li>Bruno da Silva Pereira Lima</li>
+          <li>Cintia de Azevedo Castro</li>
+          <li>Felipe Balbino Ribeiro</li> 
+          <li>Guilherme Borde Almeida</li>
+        </div>
+        <div class="col-xl-6">
+          <img
+            class="img-fluid smaller-image"
+            src="img/restaurante.png"
+            alt="Ilustração de mesa de restaurante"
+          />
+          <p><strong>Sobre o estabelecimento</strong></p>
+          O Restaurante Árabe nasceu da paixão pela culinária do Oriente Médio e
+          do desejo de compartilhar a autenticidade e os sabores dessa região
+          com nossos clientes. Nossos pratos são preparados com ingredientes
+          frescos e selecionados, seguindo receitas tradicionais que foram
+          transmitidas ao longo de gerações. Esperamos que cada visita ao nosso
+          restaurante seja uma experiência única, repleta de aromas e sabores
+          que transportem você para as ruas movimentadas dos mercados árabes.
+        </div>
+      </div>
     </div>
 
-    <div class="proprietarios">
-      <p>
-        O Restaurante Alladin's Food tem a honra de ser propriedade do Grupo 1,
-        um time dedicado e apaixonado pela culinária árabe. Os membros deste
-        grupo são:
-      </p>
-      <ol>
-        <li>Beatriz Barcelos Cardozo</li>
-        <li>Bruno da Silva Pereira Lima</li>
-        <li>Cintia de Azevedo Castro</li>
-        <li>Felipe Balbino Ribeiro</li>
-        <li>Guilherme Borde Almeida</li>
-      </ol>
-
-      <p class="sobre">
-        O Restaurante Árabe nasceu da paixão pela culinária do Oriente Médio e
-        do desejo de compartilhar a autenticidade e os sabores dessa região com
-        nossos clientes. Nossos pratos são preparados com ingredientes frescos e
-        selecionados, seguindo receitas tradicionais que foram transmitidas ao
-        longo de gerações. Esperamos que cada visita ao nosso restaurante seja
-        uma experiência única, repleta de aromas e sabores que transportem você
-        para as ruas movimentadas dos mercados árabes.
-      </p>
-    </div>
     <footer class="tamanhoFooterP">
-      <h6 class="letra_rodape">
+      <h6 class="textoFooter">
         &copy; 2023<br \ />
 
         Idealizado e Desenvolvido pelo Grupo 1 da Disciplina de FrontEnd

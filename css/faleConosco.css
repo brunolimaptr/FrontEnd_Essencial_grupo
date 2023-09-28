@@ -1,5 +1,4 @@
 * {
-  width: 1024px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -17,8 +16,8 @@ body {
 
 .mode {
   display: flex;
-  margin-left: 830px;
-  padding-bottom: 60px;
+  /* margin-left: 63vw; */
+  /* padding-bottom: 10vh; */
 }
 
 body.dark {
@@ -35,8 +34,8 @@ body.dark {
   border-radius: 50px;
   cursor: pointer;
   display: flex;
-  margin-left: 950px;
-  margin-top: 40px;
+  margin-left: 94vw;
+  margin-top: 6vh;
 
   padding: 5px;
   height: 26px;
@@ -66,25 +65,39 @@ body.dark {
 
 .fa-sun {
   color: #f39c12;
+  margin-left: 1vh;
 }
 
 .center {
-  margin-left: 800px;
-  padding-top: 50px;
-  display: flex;
+  /* margin-left: 61vw; */
+  /* padding-bottom: 8vh; */
+  /* display: flex; */
+  text-align: center;
 }
 
 .form-label {
-  margin-left: 500px;
+  /* margin-left: 38vw; */
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
 }
 
 .form-control {
-  margin-left: 500px;
+  /* margin-left: 38vw; */
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
 }
 
 .botao {
-  margin-left: 500px;
-  padding-top: 15px;
+  /* margin-left: 38vw; */
+  padding-top: 3vh;
+  text-align: center;
+  width: 100%;
+}
+
+.btn.btn-primary {
+  width: 20%;
 }
 
 nav ul {
@@ -129,7 +142,7 @@ footer {
 .letra_rodape {
   text-align: center;
   justify-content: center;
-  margin-left: 500px;
+  /* margin-left: 38vw; */
 }
 
 h1 {
