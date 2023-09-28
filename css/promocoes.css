@@ -143,6 +143,7 @@ header {
 }
 
 .tamanhoFooterP {
+  margin-top: 100px;
   height: 10vh;
   background-color: #e1a24c;
   padding-top: 2vh;
