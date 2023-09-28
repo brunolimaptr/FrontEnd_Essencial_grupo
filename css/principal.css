@@ -1,12 +1,12 @@
 .modalTexto {
-  padding-left: 1.5vw;
+  padding-left: 2vw;
   overflow: hidden;
   height: 20vh;
   padding-top: 6vh;
 }
 
 .imagemLogoP {
-  margin-left: 10vw;
+  margin-right: -18vw;
   overflow: hidden;
 }
 
@@ -20,7 +20,7 @@
 
 .modal {
   margin-top: 40vh;
-  margin-left: -1.5vw;
+  margin-left: -1vw;
 }
 
 .legendaCarouselP {
@@ -57,7 +57,7 @@ body {
 .mode {
   margin-top: 4vh;
   display: flex;
-  margin-left: 29vw;
+  margin-left: 30vw;
   padding-bottom: 6vh;
 }
 

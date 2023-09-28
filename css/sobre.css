@@ -6,19 +6,33 @@ body {
   margin: 0;
   transition: background 0.2s linear;
 }
+.container {
+  padding-bottom: 10%;
+}
 .Título {
   text-align: center;
   padding-top: 20px;
-  display: flex;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+
+.smaller-image {
+  width: 150px;
+  float: left;
+  margin-right: 20px;
 }
 .navbar {
   width: 100%;
 }
 .mode {
-  margin-bottom: 20px;
+  margin-top: 10vh;
   display: flex;
-  padding-bottom: 20px;
-  margin-left: 1225px;
+  margin-left: 29vw;
+  padding-bottom: 6vh;
+}
+
+.imagemLogoP {
+  margin-right: 20vw;
 }
 
 body.dark {
@@ -94,14 +108,67 @@ nav ul li a:hover {
   background-color: #f7d66b;
 }
 
-footer {
-  height: 10vh;
+.tamanhoFooterP {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
   background-color: #e1a24c;
-  padding-top: 2vh;
   text-align: center;
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
-  margin-left: auto;
+  padding: 6px;
+  box-sizing: border-box;
+  z-index: 9999;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .mode {
+    margin-top: 4vh;
+    display: flex;
+    margin-left: 8vw;
+    padding-bottom: 6vh;
+  }
+
+  .imagemLogoP {
+    overflow: hidden;
+    margin-right: -30vw;
+  }
+
+  .alturaPaginaP {
+    overflow: hidden;
+  }
+}
+@media screen and (min-device-width: 481px) and (max-device-width: 800px) {
+  .mode {
+    margin-top: 4vh;
+    display: flex;
+    margin-left: 8vw;
+    padding-bottom: 6vh;
+  }
+
+  .imagemLogoP {
+    overflow: hidden;
+    margin-right: -30vw;
+  }
+
+  .alturaPaginaP {
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-device-width: 801px) and (max-device-width: 1200px) {
+  .mode {
+    margin-top: 4vh;
+    display: flex;
+    margin-left: 16vw;
+    padding-bottom: 6vh;
+  }
+
+  .imagemLogoP {
+    overflow: hidden;
+    margin-right: -18vw;
+  }
+
+  .alturaPaginaP {
+    overflow: hidden;
+  }
 }
