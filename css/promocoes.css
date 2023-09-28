@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+.imagemLogoP {
+  margin-left: 10vw;
+  overflow: hidden;
+}
+
+.modal {
+  margin-top: 40vh;
+  margin-left: -1.5vw;
+}
+
 h1 {
   text-align: center;
   margin: 1em 0;
