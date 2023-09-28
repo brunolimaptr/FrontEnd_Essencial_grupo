@@ -1,13 +1,14 @@
 .modalTexto {
-  padding-left: 1.5vw;
+  padding-left: 2vw;
   overflow: hidden;
   height: 20vh;
   padding-top: 6vh;
 }
 
 .imagemLogoP {
-  margin-left: 10vw;
+  /* margin-right: -18vw; */
   overflow: hidden;
+  margin-left: 6vw;
 }
 
 .textoNavP {
@@ -20,7 +21,7 @@
 
 .modal {
   margin-top: 40vh;
-  margin-left: -1.5vw;
+  margin-left: -1vw;
 }
 
 .legendaCarouselP {
@@ -57,7 +58,7 @@ body {
 .mode {
   margin-top: 4vh;
   display: flex;
-  margin-left: 29vw;
+  margin-left: 30vw;
   padding-bottom: 6vh;
 }
 
@@ -74,7 +75,7 @@ body.dark {
   border-radius: 50px;
   cursor: pointer;
   display: flex;
-  margin-left: 37vw;
+  margin-left: 28vw;
   margin-top: 2vh;
 
   padding: 5px;
@@ -105,6 +106,7 @@ body.dark {
 
 .fa-sun {
   color: #f39c12;
+  margin-left: 0.5vw;
 }
 
 nav ul {

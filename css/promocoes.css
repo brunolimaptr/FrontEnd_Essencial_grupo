@@ -31,7 +31,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   background-color: #e1a24c;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 1;
@@ -55,13 +55,18 @@ nav ul li a:hover {
 }
 
 header {
-  text-align: center;
   padding: 20px 0;
 }
 
 /* Posiciona automaticamente sem fazer a rolagem do body, só no carrossel*/
 .gallery-wrapper {
   overflow-x: auto;
+}
+
+.mode {
+  display: flex;
+  margin-right: 1vw;
+  margin-bottom: 10vh;
 }
 
 .arrow-left,
