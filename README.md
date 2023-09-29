@@ -3,7 +3,7 @@ Seja bem-vindo ao Alladin's Food, um site construído com HTML, CSS e JavaScript
 <br/>
 <br/>
 <div align="center">
-<img src="https://github.com/brunolimaptr/FrontEnd_Essencial_grupo/assets/141193384/28ce1df1-af96-44ac-98b3-c55f9430bcb4" width="1080px" />
+<img src="img/Pagina Inicial.jpeg" width="1080px" />
 </div>
 <div align="center">
 Página Inicial - Uma Boas-Vindas ao Mundo Árabe
@@ -14,7 +14,7 @@ Ao acessar nosso site, a primeira página que você encontrará é a "Home". Aqu
 <br/>
 <br/>
 <div align="center">
-<img src="https://github.com/brunolimaptr/FrontEnd_Essencial_grupo/assets/141193384/329e61dd-4164-4ece-9792-660f8d57f739" width="1080px" />
+<img src="img/Página Cardápio.png" width="1080px" />
 </div>
 <div align="center">
 Cardápio - O Sabor em Detalhes
@@ -25,7 +25,7 @@ A página "Cardápio" é onde a mágica acontece. Explore os detalhes dos pratos
 <br/>
 <br/>
 <div align="center">
-<img src="https://github.com/brunolimaptr/FrontEnd_Essencial_grupo/assets/141193384/2724d47b-36e1-4ec2-94dd-76c7debc2782" width="1080px" />
+<img src="img/Página Promoções.png" width="1080px" />
 </div>
 <div align="center">
 Promoções - Ofertas Especiais para Você
@@ -36,7 +36,7 @@ Em nossa seção de "Promoções", você encontrará ofertas exclusivas que torn
 <br/>
 <br/>
 <div align="center">
-<img src="https://github.com/brunolimaptr/FrontEnd_Essencial_grupo/assets/141193384/787c219f-07c1-4377-ab9d-4ec9386c4c53" width="1080px" />
+<img src="img/Página Sobre.jpeg" width="1080px" />
 </div>
 <div align="center">
 Sobre - Nossa História e Missão
@@ -47,7 +47,7 @@ A página "Sobre" é onde compartilhamos nossa história e missão. Conheça a h
 <br/>
 <br/>
 <div align="center">
-<img src="https://github.com/brunolimaptr/FrontEnd_Essencial_grupo/assets/141193384/5d28a836-f14e-40af-a4ba-449ec588e8fb" width="1080px" />
+<img src="img/Pagina Fale Conosco.jpeg" width="1080px" />
 </div>
 <div align="center">
 Fale Conosco - Estamos Aqui para Você
